@@ -1,4 +1,4 @@
-# L1 <-> L2 transfer
+# L2 -> L1 Bridge Withdraw
 
 This example shows how use the nahmii Node.js tools to withdraw funds from the bridge contract. **THIS IS FOR EDUCATIONAL PURPOSES ONLY AND AUTHOR IS NOT LIABLE FOR LOSS OF FUNDS.**
 
