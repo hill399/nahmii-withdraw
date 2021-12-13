@@ -1,0 +1,19 @@
+{
+  "name": "nahmii-withdraw",
+  "version": "1.0.0",
+  "description": "Example project to demonstrate withdraw from nahmii L2 if challenge period is finished",
+  "main": "scripts/flow.js",
+  "scripts": {
+    "start": "node scripts/flow.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hill399",
+  "license": "ISC",
+  "dependencies": {
+    "@nahmii/contracts": "^0.5.0",
+    "@nahmii/core-utils": "^0.5.2",
+    "@nahmii/message-relayer": "^0.1.9",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.5.2"
+  }
+}
