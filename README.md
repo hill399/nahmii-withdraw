@@ -6,6 +6,12 @@ This code is a stripped back version of the code provided within [nahmii-example
 
 This example expects the user to have already started the challenge period via the current bridge GUI and the challenge period has been completed (7 days from withdraw).
 
+Approximate gas used:
+
+ETH Withdraw: ~450k
+
+ERC20 Withdraw: ~550k
+
 ## How to run this project
 
 The first step involves installing the dependencies via yarn.
@@ -16,7 +22,7 @@ yarn
 
 Fill in the user-specific details in the `user.env` file:
 
-`USER_PRIVATE_KEY` : Private key of account withdrawing funds. Requires funding on both L1 and L2.
+`USER_PRIVATE_KEY` : Private key of funded L1 account. **NOTE:** Does not need to be the same account which initiated the withdraw (i.e. can use an account to proxy call).
 
 `USER_TX_HASH` : Transaction hash in which the withdraw function was triggered.
 
