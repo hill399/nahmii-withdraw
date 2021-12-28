@@ -4,7 +4,7 @@
   "description": "Example project to demonstrate withdraw from nahmii L2 if challenge period is finished",
   "main": "scripts/flow.js",
   "scripts": {
-    "start": "node scripts/flow.js",
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "hill399",
@@ -13,7 +13,9 @@
     "@nahmii/contracts": "^0.5.0",
     "@nahmii/core-utils": "^0.5.2",
     "@nahmii/message-relayer": "^0.1.9",
+    "chalk": "4",
     "dotenv": "^10.0.0",
-    "ethers": "^5.5.2"
+    "ethers": "^5.5.2",
+    "readline-sync": "^1.4.10"
   }
 }
